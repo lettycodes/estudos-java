@@ -1,3 +1,3 @@
-# Desafio DIO - Conta de banco
+# Conta bancária
 
 - Conta bancária utilizando POO na linguagem Java
