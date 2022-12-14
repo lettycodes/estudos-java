@@ -126,6 +126,22 @@ Explicando a estrutura do código acima:
 4. carneirinhos ++ -> O programa aumenta em mais 1, o valor da variável carneirinhos;
 5. O fluxo é finalizado, quando a variável carneirinhos for igual a 20.
 
+Também usamos o controle de fluxo for , para interagir sobre arrays e coleções:
+
+```javascript
+public class ExemploFor {
+public static void main(String[] args) {
+	String alunos[] = { "FELIPE", "JONAS", "JULIA", "MARCOS" };
+
+	for (int x=0; x<alunos.length; x++) {
+		System.out.println("O aluno no indice x=" + x + " é " + alunos[x]);
+	}
+}
+}
+```
+
+> Observe que, como os arrays começam com índice igual a 0 (zero), iniciamos a nossa variável x também com valor zero e validamos a quantidade de repetições, a partir da quantidade de elementos do array.
+
 ## For Each
 O uso do for / each está fortemente relacionado, com um cenário onde contenha um array ou coleção e, assim, a interação é baseada nos elementos da coleção.
 
